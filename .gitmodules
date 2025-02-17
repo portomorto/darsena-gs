@@ -4,3 +4,6 @@
 [submodule "arsenale/metafisica"]
 	path = arsenale/metafisica
 	url = git@github.com:grammaton/metafisica.git
+[submodule "documents/articles"]
+	path = documents/articles
+	url = git@github.com:portomorto/articles.git
