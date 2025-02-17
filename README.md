@@ -40,13 +40,13 @@ cat ~/.ssh/id_ed25519.pub
 Per clonare il repository con tutti i suoi submoduli:
 
 ```bash
-git clone --recursive git@github.com:grammaton/darsena.git
-cd darsena
+git clone --recursive git@github.com:portomorto/darsena-gs.git
+cd darsena-gs
 ```
 
 Se hai già clonato il repository senza i submoduli:
 ```bash
-cd darsena
+cd darsena-gs
 git submodule init
 git submodule update
 ```
