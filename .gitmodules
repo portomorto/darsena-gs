@@ -1,6 +1,6 @@
 [submodule "sottomarini/dibi-bib"]
 	path = sottomarini/dibi-bib
 	url = git@github.com:grammaton/dibi-bib.git
-[submodule "metafisica"]
+[submodule "arsenale/metafisica"]
 	path = arsenale/metafisica
 	url = git@github.com:grammaton/metafisica.git
