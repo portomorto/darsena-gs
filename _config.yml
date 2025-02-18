@@ -29,7 +29,7 @@ plugins:
 
 sass:
   sass_dir: _sass
-  
+
 callouts:
   glossario:
     title: Glossario
@@ -64,18 +64,6 @@ scholar:
   details_link:   Details
 
   query: "@*"
-
-pdf_naming:
-  pattern: ':year-:author_surname-:category-:title'
-  sanitize: true
-
-pdf_generation:
-  enabled: true
-  projects:
-    - name: metafisica
-      title: "Metafisica del Suono"
-    - name: pto
-      title: "Pensare Tetraedrico Oggi"
 
 collections:
   cartografie:
