@@ -1,44 +1,228 @@
 .
-├── articles
-│   ├── 1991-keele-jr-articolo-measurement-of-polarity-in-band-limited-systems.md
-│   ├── 1991-keele-jr-articolo-measurement-of-polarity-in-band-limited-systems.pdf
-│   ├── 1992-linkwitz-articolo-aes-development-of-a-compact-dipole-loudspeaker.md
-│   ├── 1992-linkwitz-articolo-aes-development-of-a-compact-dipole-loudspeaker.pdf
-│   ├── 2024-carroll-articolo-what-emergence-can-possibly-mean.md
-│   ├── 2024-carroll-articolo-what-emergence-can-possibly-mean.pdf
-│   ├── akers-todd
-│   │   └── 2011-akers-todd-czajagoldawoszczynapdf-nb.pdf
-│   ├── blumlein
-│   │   └── 2010-blumlein-blumlein-british-patent-specification-394325.pdf
-│   ├── daniel
-│   │   └── 2003-daniel-further-investigations-of-high-order-for-holophonic-sound-imaging.pdf
-│   ├── fasciani-icmc2018
-│   │   └── 2018-fasciani-icmc2018-fascianiicmc2018-2.pdf
-│   ├── holdetal
-│   │   └── 2021-holdetal-holdetal-waspaa2021.pdf
+├── Gemfile
+├── Gemfile.lock
+├── LICENSE
+├── README.md
+├── _config.yml
+├── _data
+│   └── glossario.yml
+├── _includes
+│   ├── git-info.html
+│   ├── head_custom.html
+│   ├── mathjax.html
+│   └── nav_footer_custom.html
+├── _layouts
+│   ├── acquaalta.html
+│   ├── biblio.html
+│   ├── ciccio.html
+│   ├── document.html
+│   ├── gs-adonis.cls
+│   ├── mathjax.html
+│   ├── tex2pdf.tex
+│   └── tex2pdf_old.tex
+├── _plugins
+│   ├── git_local_info.rb
+│   └── pdf_handler.rb
+├── _sass
+│   └── custom
+│       └── custom.scss
+├── acquaalta
+│   ├── articoli
+│   │   ├── 1998-cognome-unknown-unknown-unknown-unknown-integrex.md
+│   │   ├── 1998-cognome-unknown-unknown-unknown-unknown-integrex.pdf
+│   │   ├── 2000-aaron-heller-eric-benjamin-richard-lee-ambisonic-decoders-by-nonlinear-optimization.md
+│   │   ├── 2000-aaron-heller-eric-benjamin-richard-lee-ambisonic-decoders-by-nonlinear-optimization.pdf
+│   │   ├── 2000-cognome-e-data-ambi10-tex-ambi10-dvi.md
+│   │   ├── 2000-cognome-e-data-ambi10-tex-ambi10-dvi.pdf
+│   │   ├── 2000-cognome-unknown-chi-ha-paura-dei-numeri-complessi-sulla-matematica-del-suono-carmine-emanuele-cella-sommario-questo-unknown-pauracomplessa.md
+│   │   ├── 2000-cognome-unknown-chi-ha-paura-dei-numeri-complessi-sulla-matematica-del-suono-carmine-emanuele-cella-sommario-questo-unknown-pauracomplessa.pdf
+│   │   ├── 2000-cognome-unknown-christoph-hold-aalto-university-16-publications-35-citations-see-profile-archontis-politis-tampere-u-holdetal-holdetal-waspaa2021.md
+│   │   ├── 2000-cognome-unknown-christoph-hold-aalto-university-16-publications-35-citations-see-profile-archontis-politis-tampere-u-holdetal-holdetal-waspaa2021.pdf
+│   │   ├── 2000-cognome-unknown-the-same-artists-in-the-same-environ-ment-but-in-the-different-systems-was-obtainable-as-this-compar-studio-studio-studio-sound-1982-08-ocr-page-0052.md
+│   │   ├── 2000-cognome-unknown-the-same-artists-in-the-same-environ-ment-but-in-the-different-systems-was-obtainable-as-this-compar-studio-studio-studio-sound-1982-08-ocr-page-0052.pdf
+│   │   ├── 2000-cognome-unknown-unknown-unknown-troy-ta110p-leaflet.md
+│   │   ├── 2000-cognome-unknown-unknown-unknown-troy-ta110p-leaflet.pdf
+│   │   ├── 2000-cognome-unknown-unknown-unknown-truaxcmj-granular.md
+│   │   ├── 2000-cognome-unknown-unknown-unknown-truaxcmj-granular.pdf
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmj-granular.md
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmj-granular.pdf
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmjpodx.md
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmjpodx.pdf
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmjtimeshifting.md
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmjtimeshifting.pdf
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxinterface1973.md
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxinterface1973.pdf
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxpod.md
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxpod.pdf
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxpolyphonicpod.md
+│   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxpolyphonicpod.pdf
+│   │   ├── 2000-cognome-unknown-viktor-s-klovskij-l-arte-come-procedimento-larte-e-pensiero-che-si-attua-per-mezzo-di-immagini-questa-pdfslide-pdfslide-net-viktor-pdfslide-netviktor-sklovskij-l-arte-come-procedimento.md
+│   │   ├── 2000-cognome-unknown-viktor-s-klovskij-l-arte-come-procedimento-larte-e-pensiero-che-si-attua-per-mezzo-di-immagini-questa-pdfslide-pdfslide-net-viktor-pdfslide-netviktor-sklovskij-l-arte-come-procedimento.pdf
+│   │   ├── 2000-eric-benjamin-richard-lee-and-aaron-heller-localization-in-horizontal-only-ambisonic-systems.md
+│   │   ├── 2000-eric-benjamin-richard-lee-and-aaron-heller-localization-in-horizontal-only-ambisonic-systems.pdf
+│   │   ├── 2017-cognome-1498412620414609072-02931862.md
+│   │   ├── 2017-cognome-1498412620414609072-02931862.pdf
+│   │   ├── 2017-cognome-1499070634708349676-01792523.md
+│   │   ├── 2017-cognome-1499070634708349676-01792523.pdf
+│   │   ├── 2017-cognome-1499083212539726991-07076071.md
+│   │   ├── 2017-cognome-1499083212539726991-07076071.pdf
+│   │   ├── barrett
+│   │   │   ├── 2000-natasha-barrett-ems10-barrett-postems-online.md
+│   │   │   └── 2000-natasha-barrett-ems10-barrett-postems-online.pdf
+│   │   ├── benjamin
+│   │   │   ├── 2008-heller-lee-benjamin-is-my-decoder-ambisonic.md
+│   │   │   └── 2008-heller-lee-benjamin-is-my-decoder-ambisonic.pdf
+│   │   ├── blumlein
+│   │   │   ├── 1931-blumlein-british-patent-specification-394325.md
+│   │   │   └── 1931-blumlein-british-patent-specification-394325.pdf
+│   │   ├── carroll
+│   │   │   ├── 2024-carroll-what-emergence-can-possibly-mean.md
+│   │   │   └── 2024-carroll-what-emergence-can-possibly-mean.pdf
+│   │   ├── daniel
+│   │   │   ├── 2003-daniel-nicol-moreau-further-investigations-of-high-order-ambisonics-and-wavefield-synthesis-for-holophonic-sound-imaging.md
+│   │   │   └── 2003-daniel-nicol-moreau-further-investigations-of-high-order-ambisonics-and-wavefield-synthesis-for-holophonic-sound-imaging.pdf
+│   │   ├── fasciani
+│   │   │   ├── 2018-fasciani-spectral-granular-synthesis.md
+│   │   │   └── 2018-fasciani-spectral-granular-synthesis.pdf
+│   │   ├── index.md
+│   │   ├── keele
+│   │   │   ├── 1991-keele-jr-measurement-of-polarity-in-band-limited-systems.md
+│   │   │   └── 1991-keele-jr-measurement-of-polarity-in-band-limited-systems.pdf
+│   │   ├── larcati
+│   │   │   ├── 2025-larcati-istantanee-di-un-dialogo-disperso.md
+│   │   │   └── 2025-larcati-istantanee-di-un-dialogo-disperso.pdf
+│   │   ├── linkwitz
+│   │   │   ├── 1992-linkwitz-development-of-a-compact-dipole-loudspeaker.md
+│   │   │   └── 1992-linkwitz-development-of-a-compact-dipole-loudspeaker.pdf
+│   │   ├── lutz
+│   │   │   ├── 2021-lutz-hokua-a-wavelet-method-for-audio-fingerprinting.md
+│   │   │   └── 2021-lutz-hokua-a-wavelet-method-for-audio-fingerprinting.pdf
+│   │   ├── neupert
+│   │   │   ├── 2000-wegener-neupert-the-aliased-complex-oscillator-as-a-paradigm-for-analog-physical-modeling-sound-synthesis.md
+│   │   │   ├── 2000-wegener-neupert-the-aliased-complex-oscillator-as-a-paradigm-for-analog-physical-modeling-sound-synthesis.pdf
+│   │   │   ├── 2022-wegener-neupert-fpga-accelerated-real-time-audio-in-pure-data.md
+│   │   │   └── 2022-wegener-neupert-fpga-accelerated-real-time-audio-in-pure-data.pdf
+│   │   ├── nyquist
+│   │   │   ├── 1932-nyquist-regeneration-theory.md
+│   │   │   └── 1932-nyquist-regeneration-theory.pdf
+│   │   ├── penrose
+│   │   │   ├── 1965-penrose-gravitational-collapse-and-space-time-singularities.md
+│   │   │   └── 1965-penrose-gravitational-collapse-and-space-time-singularities.pdf
+│   │   ├── pulkki
+│   │   │   ├── 2021-hold-schlecht-politis-pulkki-spatial-filter-bank-in-the-spherical-harmonic-domain-reconstruction-and-application.md
+│   │   │   └── 2021-hold-schlecht-politis-pulkki-spatial-filter-bank-in-the-spherical-harmonic-domain-reconstruction-and-application.pdf
+│   │   ├── turner
+│   │   │   ├── 2009-turner-an-efficient-analytic-signal-generator.md
+│   │   │   └── 2009-turner-an-efficient-analytic-signal-generator.pdf
+│   │   ├── wakefield
+│   │   │   ├── 2000-wakefield-third-order-ambisonic-extensions-for-max-msp-with-musical-applications.md
+│   │   │   └── 2000-wakefield-third-order-ambisonic-extensions-for-max-msp-with-musical-applications.pdf
+│   │   ├── woszczyna
+│   │   │   ├── 2011-czaja-golda-woszczyna-the-acoustic-wave-equation-in-the-expanding-universe-sachs-wolfe-theorem.md
+│   │   │   └── 2011-czaja-golda-woszczyna-the-acoustic-wave-equation-in-the-expanding-universe-sachs-wolfe-theorem.pdf
+│   │   └── zotter
+│   │       ├── 2012-zotter-frank-all-round-ambisonic-panning-and-decoding.md
+│   │       └── 2012-zotter-frank-all-round-ambisonic-panning-and-decoding.pdf
 │   ├── index.md
-│   ├── is-my-decoder-ambisonic
-│   │   └── 2008-is-my-decoder-ambisonic-ismydecoderambisonic-2.pdf
-│   ├── journals-cambridge
-│   │   └── 2012-journals-cambridge-jaes-1100-11hr.pdf
-│   ├── lutz-steven-s
-│   │   └── 2021-lutz-steven-s-hokua-a-wavelet-method-for-audio-fingerprinting.pdf
-│   ├── nyquist-bstj-11-1-january-1932-regeneration-theory
-│   │   └── 2013-nyquist-bstj-11-1-january-1932-regeneration-theory-bstj-11-1-january-regeneration-theory-nyquist-h.pdf
-│   └── pdf
-├── books
-│   ├── _modello.md
-│   ├── amiot-021
-│   │   ├── 2016-amiot-021-0-21-amiot-in-music-theory-springer-publishing.md
-│   │   └── 2016-amiot-021-0-21-amiot-in-music-theory-springer-publishing.pdf
+│   └── libri
+│       ├── amiot
+│       │   ├── 2016-amiot-music-through-fourier-space.md
+│       │   └── 2016-amiot-music-through-fourier-space.pdf
+│       ├── colli
+│       │   ├── 1992-colli-sapienza-greca-ii.md
+│       │   ├── 1992-colli-sapienza-greca-ii.pdf
+│       │   ├── 1993-colli-sapienza-greca-iii.md
+│       │   └── 1993-colli-sapienza-greca-iii.pdf
+│       └── index.md
+├── arsenale
 │   ├── index.md
-│   └── untitled folder
-│       ├── La sapienza greca_ Epidemie, Ferecide, Talete, Anassimandro, -- Giorgio Colli -- Gli Adelphi, 14, 33, 48, 2006 -- Adelphi -- 9788845907616 -- 42cabd2232191c608f771239893b12eb -- Anna’s Archive.md
-│       ├── La sapienza greca_ Epidemie, Ferecide, Talete, Anassimandro, -- Giorgio Colli -- Gli Adelphi, 14, 33, 48, 2006 -- Adelphi -- 9788845907616 -- 42cabd2232191c608f771239893b12eb -- Anna’s Archive.pdf
-│       ├── La sapienza greca_ Eraclito -- Giorgio Colli -- Gli Adelphi 48, Vol_ 3, 1993 -- Adelphi -- 9788845909832 -- 08f721cfd3bd3aeb6b6cc5686c94409d -- Anna’s Archive.pdf
-│       └── La sapienza greca_III.md
+│   ├── metafisica
+│   │   ├── faust
+│   │   │   └── ciccio.dsp
+│   │   ├── img
+│   │   │   ├── 1933-f-m-isofoniche.png
+│   │   │   ├── get-pip.py
+│   │   │   └── pydecomposer.py
+│   │   ├── index.md
+│   │   ├── latex
+│   │   │   ├── ciccio.tex
+│   │   │   ├── gs-adonis.cls
+│   │   │   └── metafisica.tex
+│   │   ├── makefile
+│   │   ├── md
+│   │   │   ├── 0100-premessa.md
+│   │   │   ├── 0110-agon.md
+│   │   │   ├── 0120-memoria.md
+│   │   │   ├── 0130-decomposizione.md
+│   │   │   ├── 0140-ricomposizione.md
+│   │   │   ├── 0150-composizione.md
+│   │   │   ├── 0200-genealogia.md
+│   │   │   ├── 0300-lichtung.md
+│   │   │   ├── 0400-movimento.md
+│   │   │   └── 0500-QED.md
+│   │   └── ref
+│   │       ├── 45_e23.66.pdf
+│   │       ├── Acoustics226-2003-2.pdf
+│   │       ├── Acoustics226-2003-3.pdf
+│   │       ├── Acoustics226-2003.pdf
+│   │       ├── Equal-loudness contour - Wikipedia.webloc
+│   │       ├── Fletcher-MunsonIsNotRobinson-Dadson copy.pdf
+│   │       ├── Fletcher-MunsonIsNotRobinson-Dadson-2.pdf
+│   │       ├── Fletcher-MunsonIsNotRobinson-Dadson.pdf
+│   │       ├── IS-01Y-E.pdf
+│   │       ├── ISO-226-1987.pdf
+│   │       ├── ISO-226-2023.pdf
+│   │       ├── Revision_of_ISO_226_Normal_Equal-Loudness-Level_Co.pdf
+│   │       ├── Wittek_thesis_201207.pdf
+│   │       ├── bstj12-4-377.pdf
+│   │       └── bstj12-4-377_text.pdf
+│   ├── pto
+│   │   ├── faust
+│   │   ├── img
+│   │   │   ├── 24574_1394353980838_3108209_n.jpg
+│   │   │   ├── DSC_5748.jpg
+│   │   │   └── grafico-relazioni.jpg
+│   │   ├── index.md
+│   │   ├── latex
+│   │   ├── makefile
+│   │   └── md
+│   │       ├── 0100-introduzione.md
+│   │       ├── 0200-prologo.md
+│   │       ├── 0300-percorso-storico.md
+│   │       └── pandocpto.md
+│   └── trascrizioni
+│       ├── 2023-ronchi-albinati-vere-menzogne.md
+│       └── index.md
+├── assets
+│   └── js
+│       └── mathjax-script-type.js
+├── cartografie
+│   ├── fagioli.md
+│   ├── index.md
+│   ├── microfoni.md
+│   ├── nono-luigi.md
+│   ├── noway.md
+│   ├── reich-steve.md
+│   └── riverberi.md
+├── check-branches.sh
 ├── index.md
-└── pdfs
-    └── _modello.md
+├── makefile
+├── recursive-commit.sh
+├── sottomarini
+│   └── dibi-bib
+│       ├── LICENSE
+│       ├── README.md
+│       ├── ambisonics.bib
+│       ├── microfoni.bib
+│       ├── no.bib
+│       ├── nono-luigi.bib
+│       ├── novecento.bib
+│       ├── ottocento.bib
+│       ├── references.bib
+│       ├── reich-steve.bib
+│       ├── riverberi.bib
+│       ├── score.bib
+│       └── tech.bib
+└── tree.txt
 
-16 directories, 26 files
+48 directories, 178 files

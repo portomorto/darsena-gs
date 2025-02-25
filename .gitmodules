@@ -10,3 +10,6 @@
 [submodule "acquaalta/articoli"]
 	path = acquaalta/articoli
 	url = git@github.com:portomorto/articoli.git
+[submodule "arsenale/pto"]
+	path = arsenale/pto
+	url = git@github.com:grammaton/pto.git
