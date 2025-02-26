@@ -13,3 +13,6 @@
 [submodule "arsenale/pto"]
 	path = arsenale/pto
 	url = git@github.com:grammaton/pto.git
+[submodule "_data/squero"]
+	path = _data/squero
+	url = git@github.com:portomorto/squero.git
