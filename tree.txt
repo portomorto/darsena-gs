@@ -5,7 +5,18 @@
 ├── README.md
 ├── _config.yml
 ├── _data
-│   └── glossario.yml
+│   ├── bacino-di-carenaggio
+│   │   ├── phaino.yml
+│   │   ├── phainomenon.yml
+│   │   ├── phanos.yml
+│   │   ├── phantasia.yml
+│   │   ├── phantastikos.yml
+│   │   ├── phantazo.yml
+│   │   ├── pharos.yml
+│   │   └── phasis.yml
+│   └── squero
+│       ├── README.md
+│       └── glossario.yml
 ├── _includes
 │   ├── git-info.html
 │   ├── head_custom.html
@@ -26,6 +37,205 @@
 ├── _sass
 │   └── custom
 │       └── custom.scss
+├── _site
+│   ├── LICENSE
+│   ├── README.md
+│   ├── acquaalta
+│   │   ├── articoli
+│   │   │   ├── 1998-cognome-unknown-unknown-unknown-unknown-integrex.html
+│   │   │   ├── 1998-cognome-unknown-unknown-unknown-unknown-integrex.pdf
+│   │   │   ├── 2000-aaron-heller-eric-benjamin-richard-lee-ambisonic-decoders-by-nonlinear-optimization.html
+│   │   │   ├── 2000-aaron-heller-eric-benjamin-richard-lee-ambisonic-decoders-by-nonlinear-optimization.pdf
+│   │   │   ├── 2000-cognome-e-data-ambi10-tex-ambi10-dvi.html
+│   │   │   ├── 2000-cognome-e-data-ambi10-tex-ambi10-dvi.pdf
+│   │   │   ├── 2000-cognome-unknown-chi-ha-paura-dei-numeri-complessi-sulla-matematica-del-suono-carmine-emanuele-cella-sommario-questo-unknown-pauracomplessa.html
+│   │   │   ├── 2000-cognome-unknown-chi-ha-paura-dei-numeri-complessi-sulla-matematica-del-suono-carmine-emanuele-cella-sommario-questo-unknown-pauracomplessa.pdf
+│   │   │   ├── 2000-cognome-unknown-christoph-hold-aalto-university-16-publications-35-citations-see-profile-archontis-politis-tampere-u-holdetal-holdetal-waspaa2021.html
+│   │   │   ├── 2000-cognome-unknown-christoph-hold-aalto-university-16-publications-35-citations-see-profile-archontis-politis-tampere-u-holdetal-holdetal-waspaa2021.pdf
+│   │   │   ├── 2000-cognome-unknown-the-same-artists-in-the-same-environ-ment-but-in-the-different-systems-was-obtainable-as-this-compar-studio-studio-studio-sound-1982-08-ocr-page-0052.html
+│   │   │   ├── 2000-cognome-unknown-the-same-artists-in-the-same-environ-ment-but-in-the-different-systems-was-obtainable-as-this-compar-studio-studio-studio-sound-1982-08-ocr-page-0052.pdf
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-troy-ta110p-leaflet.html
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-troy-ta110p-leaflet.pdf
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-truaxcmj-granular.html
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-truaxcmj-granular.pdf
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmj-granular.html
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmj-granular.pdf
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmjpodx.html
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmjpodx.pdf
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmjtimeshifting.html
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxcmjtimeshifting.pdf
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxinterface1973.html
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxinterface1973.pdf
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxpod.html
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxpod.pdf
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxpolyphonicpod.html
+│   │   │   ├── 2000-cognome-unknown-unknown-unknown-unknown-truaxpolyphonicpod.pdf
+│   │   │   ├── 2000-cognome-unknown-viktor-s-klovskij-l-arte-come-procedimento-larte-e-pensiero-che-si-attua-per-mezzo-di-immagini-questa-pdfslide-pdfslide-net-viktor-pdfslide-netviktor-sklovskij-l-arte-come-procedimento.html
+│   │   │   ├── 2000-cognome-unknown-viktor-s-klovskij-l-arte-come-procedimento-larte-e-pensiero-che-si-attua-per-mezzo-di-immagini-questa-pdfslide-pdfslide-net-viktor-pdfslide-netviktor-sklovskij-l-arte-come-procedimento.pdf
+│   │   │   ├── 2000-eric-benjamin-richard-lee-and-aaron-heller-localization-in-horizontal-only-ambisonic-systems.html
+│   │   │   ├── 2000-eric-benjamin-richard-lee-and-aaron-heller-localization-in-horizontal-only-ambisonic-systems.pdf
+│   │   │   ├── 2017-cognome-1498412620414609072-02931862.html
+│   │   │   ├── 2017-cognome-1498412620414609072-02931862.pdf
+│   │   │   ├── 2017-cognome-1499070634708349676-01792523.html
+│   │   │   ├── 2017-cognome-1499070634708349676-01792523.pdf
+│   │   │   ├── 2017-cognome-1499083212539726991-07076071.html
+│   │   │   ├── 2017-cognome-1499083212539726991-07076071.pdf
+│   │   │   ├── barrett
+│   │   │   │   ├── 2000-natasha-barrett-ems10-barrett-postems-online.html
+│   │   │   │   └── 2000-natasha-barrett-ems10-barrett-postems-online.pdf
+│   │   │   ├── benjamin
+│   │   │   │   ├── 2008-heller-lee-benjamin-is-my-decoder-ambisonic.html
+│   │   │   │   └── 2008-heller-lee-benjamin-is-my-decoder-ambisonic.pdf
+│   │   │   ├── blumlein
+│   │   │   │   ├── 1931-blumlein-british-patent-specification-394325.html
+│   │   │   │   └── 1931-blumlein-british-patent-specification-394325.pdf
+│   │   │   ├── carroll
+│   │   │   │   ├── 2024-carroll-what-emergence-can-possibly-mean.html
+│   │   │   │   └── 2024-carroll-what-emergence-can-possibly-mean.pdf
+│   │   │   ├── daniel
+│   │   │   │   ├── 2003-daniel-nicol-moreau-further-investigations-of-high-order-ambisonics-and-wavefield-synthesis-for-holophonic-sound-imaging.html
+│   │   │   │   └── 2003-daniel-nicol-moreau-further-investigations-of-high-order-ambisonics-and-wavefield-synthesis-for-holophonic-sound-imaging.pdf
+│   │   │   ├── fasciani
+│   │   │   │   ├── 2018-fasciani-spectral-granular-synthesis.html
+│   │   │   │   └── 2018-fasciani-spectral-granular-synthesis.pdf
+│   │   │   ├── index.html
+│   │   │   ├── keele
+│   │   │   │   ├── 1991-keele-jr-measurement-of-polarity-in-band-limited-systems.html
+│   │   │   │   └── 1991-keele-jr-measurement-of-polarity-in-band-limited-systems.pdf
+│   │   │   ├── larcati
+│   │   │   │   ├── 2025-larcati-istantanee-di-un-dialogo-disperso.html
+│   │   │   │   └── 2025-larcati-istantanee-di-un-dialogo-disperso.pdf
+│   │   │   ├── linkwitz
+│   │   │   │   ├── 1992-linkwitz-development-of-a-compact-dipole-loudspeaker.html
+│   │   │   │   └── 1992-linkwitz-development-of-a-compact-dipole-loudspeaker.pdf
+│   │   │   ├── lutz
+│   │   │   │   ├── 2021-lutz-hokua-a-wavelet-method-for-audio-fingerprinting.html
+│   │   │   │   └── 2021-lutz-hokua-a-wavelet-method-for-audio-fingerprinting.pdf
+│   │   │   ├── neupert
+│   │   │   │   ├── 2000-wegener-neupert-the-aliased-complex-oscillator-as-a-paradigm-for-analog-physical-modeling-sound-synthesis.html
+│   │   │   │   ├── 2000-wegener-neupert-the-aliased-complex-oscillator-as-a-paradigm-for-analog-physical-modeling-sound-synthesis.pdf
+│   │   │   │   ├── 2022-wegener-neupert-fpga-accelerated-real-time-audio-in-pure-data.html
+│   │   │   │   └── 2022-wegener-neupert-fpga-accelerated-real-time-audio-in-pure-data.pdf
+│   │   │   ├── nyquist
+│   │   │   │   ├── 1932-nyquist-regeneration-theory.html
+│   │   │   │   └── 1932-nyquist-regeneration-theory.pdf
+│   │   │   ├── penrose
+│   │   │   │   ├── 1965-penrose-gravitational-collapse-and-space-time-singularities.html
+│   │   │   │   └── 1965-penrose-gravitational-collapse-and-space-time-singularities.pdf
+│   │   │   ├── pulkki
+│   │   │   │   ├── 2021-hold-schlecht-politis-pulkki-spatial-filter-bank-in-the-spherical-harmonic-domain-reconstruction-and-application.html
+│   │   │   │   └── 2021-hold-schlecht-politis-pulkki-spatial-filter-bank-in-the-spherical-harmonic-domain-reconstruction-and-application.pdf
+│   │   │   ├── turner
+│   │   │   │   ├── 2009-turner-an-efficient-analytic-signal-generator.html
+│   │   │   │   └── 2009-turner-an-efficient-analytic-signal-generator.pdf
+│   │   │   ├── wakefield
+│   │   │   │   ├── 2000-wakefield-third-order-ambisonic-extensions-for-max-msp-with-musical-applications.html
+│   │   │   │   └── 2000-wakefield-third-order-ambisonic-extensions-for-max-msp-with-musical-applications.pdf
+│   │   │   ├── woszczyna
+│   │   │   │   ├── 2011-czaja-golda-woszczyna-the-acoustic-wave-equation-in-the-expanding-universe-sachs-wolfe-theorem.html
+│   │   │   │   └── 2011-czaja-golda-woszczyna-the-acoustic-wave-equation-in-the-expanding-universe-sachs-wolfe-theorem.pdf
+│   │   │   └── zotter
+│   │   │       ├── 2012-zotter-frank-all-round-ambisonic-panning-and-decoding.html
+│   │   │       └── 2012-zotter-frank-all-round-ambisonic-panning-and-decoding.pdf
+│   │   ├── index.html
+│   │   └── libri
+│   │       ├── amiot
+│   │       │   ├── 2016-amiot-music-through-fourier-space.html
+│   │       │   └── 2016-amiot-music-through-fourier-space.pdf
+│   │       ├── colli
+│   │       │   ├── 1992-colli-sapienza-greca-ii.html
+│   │       │   ├── 1992-colli-sapienza-greca-ii.pdf
+│   │       │   ├── 1993-colli-sapienza-greca-iii.html
+│   │       │   └── 1993-colli-sapienza-greca-iii.pdf
+│   │       └── index.html
+│   ├── arsenale
+│   │   ├── index.html
+│   │   ├── metafisica
+│   │   │   ├── faust
+│   │   │   │   └── ciccio.dsp
+│   │   │   ├── img
+│   │   │   │   ├── 1933-f-m-isofoniche.png
+│   │   │   │   ├── get-pip.py
+│   │   │   │   └── pydecomposer.py
+│   │   │   ├── index.html
+│   │   │   ├── latex
+│   │   │   │   ├── ciccio.tex
+│   │   │   │   ├── gs-adonis.cls
+│   │   │   │   └── metafisica.tex
+│   │   │   ├── makefile
+│   │   │   ├── md
+│   │   │   │   ├── 0100-premessa.html
+│   │   │   │   ├── 0110-agon.html
+│   │   │   │   ├── 0120-memoria.html
+│   │   │   │   ├── 0130-decomposizione.html
+│   │   │   │   ├── 0140-ricomposizione.html
+│   │   │   │   ├── 0150-composizione.html
+│   │   │   │   ├── 0200-genealogia.html
+│   │   │   │   ├── 0300-lichtung.html
+│   │   │   │   ├── 0400-movimento.html
+│   │   │   │   └── 0500-QED.html
+│   │   │   └── ref
+│   │   │       └── Equal-loudness contour - Wikipedia.webloc
+│   │   ├── pto
+│   │   │   ├── img
+│   │   │   │   ├── 24574_1394353980838_3108209_n.jpg
+│   │   │   │   ├── DSC_5748.jpg
+│   │   │   │   └── grafico-relazioni.jpg
+│   │   │   ├── index.html
+│   │   │   ├── makefile
+│   │   │   └── md
+│   │   │       ├── 0100-introduzione.html
+│   │   │       ├── 0200-prologo.html
+│   │   │       ├── 0300-percorso-storico.html
+│   │   │       └── pandocpto.md
+│   │   └── trascrizioni
+│   │       ├── 2023-ronchi-albinati-vere-menzogne.html
+│   │       └── index.html
+│   ├── assets
+│   │   ├── css
+│   │   │   ├── just-the-docs-dark.css
+│   │   │   ├── just-the-docs-dark.css.map
+│   │   │   ├── just-the-docs-default.css
+│   │   │   ├── just-the-docs-default.css.map
+│   │   │   ├── just-the-docs-head-nav.css
+│   │   │   ├── just-the-docs-light.css
+│   │   │   └── just-the-docs-light.css.map
+│   │   └── js
+│   │       ├── just-the-docs.js
+│   │       ├── mathjax-script-type.js
+│   │       ├── search-data.json
+│   │       └── vendor
+│   │           └── lunr.min.js
+│   ├── cartografie
+│   │   ├── fagioli.html
+│   │   ├── index.html
+│   │   ├── microfoni.html
+│   │   ├── nono-luigi.html
+│   │   ├── noway.html
+│   │   ├── reich-steve.html
+│   │   └── riverberi.html
+│   ├── check-branches.sh
+│   ├── index.html
+│   ├── makefile
+│   ├── recursive-commit.sh
+│   ├── sottomarini
+│   │   └── dibi-bib
+│   │       ├── LICENSE
+│   │       ├── README.md
+│   │       ├── ambisonics.bib
+│   │       ├── borges.bib
+│   │       ├── fagioli.bib
+│   │       ├── microfoni.bib
+│   │       ├── no.bib
+│   │       ├── nono-luigi.bib
+│   │       ├── novecento.bib
+│   │       ├── ottocento.bib
+│   │       ├── references.bib
+│   │       ├── reich-steve.bib
+│   │       ├── riverberi.bib
+│   │       ├── score.bib
+│   │       └── tech.bib
+│   └── tree.txt
 ├── acquaalta
 │   ├── articoli
 │   │   ├── 1998-cognome-unknown-unknown-unknown-unknown-integrex.md
@@ -196,6 +406,13 @@
 ├── assets
 │   └── js
 │       └── mathjax-script-type.js
+├── cantiere
+│   ├── phaino.md
+│   ├── phanos.md
+│   ├── phantasia.md
+│   ├── phantastikos.md
+│   ├── phantazo.md
+│   └── phasis.md
 ├── cartografie
 │   ├── fagioli.md
 │   ├── index.md
@@ -213,6 +430,8 @@
 │       ├── LICENSE
 │       ├── README.md
 │       ├── ambisonics.bib
+│       ├── borges.bib
+│       ├── fagioli.bib
 │       ├── microfoni.bib
 │       ├── no.bib
 │       ├── nono-luigi.bib
@@ -225,4 +444,4 @@
 │       └── tech.bib
 └── tree.txt
 
-48 directories, 178 files
+93 directories, 352 files

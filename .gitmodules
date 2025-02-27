@@ -16,3 +16,9 @@
 [submodule "_data/squero"]
 	path = _data/squero
 	url = git@github.com:portomorto/squero.git
+[submodule "_data/bacino-di-carenaggio"]
+	path = _data/bacino-di-carenaggio
+	url = git@github.com:portomorto/bacino-di-carenaggio.git
+[submodule "cantiere"]
+	path = cantiere
+	url = git@github.com:portomorto/cantiere.git
