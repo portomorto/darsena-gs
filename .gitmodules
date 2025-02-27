@@ -1,3 +1,24 @@
 [submodule "sottomarini/dibi-bib"]
 	path = sottomarini/dibi-bib
 	url = git@github.com:grammaton/dibi-bib.git
+[submodule "arsenale/metafisica"]
+	path = arsenale/metafisica
+	url = git@github.com:grammaton/metafisica.git
+[submodule "acquaalta/libri"]
+	path = acquaalta/libri
+	url = git@github.com:portomorto/libri.git
+[submodule "acquaalta/articoli"]
+	path = acquaalta/articoli
+	url = git@github.com:portomorto/articoli.git
+[submodule "arsenale/pto"]
+	path = arsenale/pto
+	url = git@github.com:grammaton/pto.git
+[submodule "_data/squero"]
+	path = _data/squero
+	url = git@github.com:portomorto/squero.git
+[submodule "_data/bacino-di-carenaggio"]
+	path = _data/bacino-di-carenaggio
+	url = git@github.com:portomorto/bacino-di-carenaggio.git
+[submodule "cantiere"]
+	path = cantiere
+	url = git@github.com:portomorto/cantiere.git
