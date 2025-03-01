@@ -88,3 +88,58 @@
     }
   }
 }
+
+.screenplay {
+  width: 80%;
+  max-width: 6in;
+  margin: 2em auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+  line-height: 1.5;
+  padding: 1.5em;
+  background-color: #f9f9f9;
+  border-left: 4px solid #ddd;
+}
+
+.scene-heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.action {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.dialogue {
+  width: 75%;
+  margin: 0 auto 1em auto;
+}
+
+.character {
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.speech {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.continued {
+  text-align: right;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+/* Page numbering for Jekyll */
+.page-number {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 10pt;
+}

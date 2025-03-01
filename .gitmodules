@@ -22,3 +22,6 @@
 [submodule "cantiere"]
 	path = cantiere
 	url = git@github.com:portomorto/cantiere.git
+[submodule "sottomarini/canto-alla-durata"]
+	path = sottomarini/canto-alla-durata
+	url = git@gitlab.com:giuseppesilvi/canto-alla-durata.git
