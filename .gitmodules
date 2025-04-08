@@ -25,3 +25,6 @@
 [submodule "sottomarini/canto-alla-durata"]
 	path = sottomarini/canto-alla-durata
 	url = git@gitlab.com:giuseppesilvi/canto-alla-durata.git
+[submodule "arsenale/appunti-musicologia-trascendentale"]
+	path = arsenale/appunti-musicologia-trascendentale
+	url = git@github.com:grammaton/appunti-musicologia-trascendentale.git
